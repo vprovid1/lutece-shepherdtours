@@ -28,7 +28,6 @@ function launchTour(relaunch) {
 	.success(function(json) {
 		$("#relaunch-tour").show();
 		if (!relaunch) {
-			console.log(document.cookie.match(/^(.*;)?\s*tourCompleted\s*=\s*[^;]+(.*)?$/));
 			var match = document.cookie.match(/^(.*;)?\s*tourCompleted\s*=\s*[^;]+(.*)?$/);
 			if (match == -1 || match == null) {
 				document.cookie = "tourCompleted=true;";
