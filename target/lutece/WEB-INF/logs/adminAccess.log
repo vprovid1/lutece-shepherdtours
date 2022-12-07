@@ -1,0 +1,5 @@
+2022-12-07 08:45:03 INFO  [http-nio-8080-exec-2]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 0:0:0:0:0:0:0:1, url: http://localhost:8080/example/jsp/admin/rbac/ManageRoles.jsp?plugin_name=
+ 2022-12-07 08:45:13 INFO  [http-nio-8080-exec-4]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 0:0:0:0:0:0:0:1, url: http://localhost:8080/example/jsp/admin/rbac/ManageRoles.jsp?plugin_name=
+ 2022-12-07 08:45:14 INFO  [http-nio-8080-exec-8]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 0:0:0:0:0:0:0:1, url: http://localhost:8080/example/jsp/admin/rbac/ManageRoles.jsp?plugin_name=
+ 2022-12-07 08:45:58 INFO  [http-nio-8080-exec-3]  lutece.adminaccess - USER id:1, name: admin Admin, ip: 0:0:0:0:0:0:0:1, url: http://localhost:8080/example/jsp/admin/features/ManageTours.jsp?plugin_name=
+ 

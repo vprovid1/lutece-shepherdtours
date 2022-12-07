@@ -1,0 +1,38 @@
+/******************************************
+/* SPECIFIC LUTECE DEFAULT THEME STYLES   *
+******************************************/
+/* CORE STYLES */
+html {
+  /* Sticky footer styles */	
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Sticky footer styles */
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
+  /* Fix for fixed-nav-bar*/
+  padding-top:60px;
+}
+#site_footer {
+  /* Sticky footer styles */	
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+}
+
+/* img list styles */
+img.thumblist-mini{width:24px;height:24px;}
+img.thumblist-small{width:32px;height:32px;}
+img.thumblist-medium{width:64px;height:64px;}
+img.thumblist-large{width:128px;height:128px;}
+/* END CORE STYLES */
+
+/* avatar default styles */
+.avatar{margin:2px; border:1px solid #000;padding:2px;margin-right:10px; }
+.avatar-mini{width:18px;height:18px;}
+.avatar-small{width:32px;height:32px;}
+.avatar-large{width:64px;height:64px;}
+.avatar-huge{width:128px;height:128px;}

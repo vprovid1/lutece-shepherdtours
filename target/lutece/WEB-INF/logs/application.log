@@ -1,0 +1,107 @@
+2022-12-07 08:44:51 INFO  [Lutece-MainThread]  lutece.event -  
+ _      _   _   _____   ___    ___   ___      ____
+| |    | | | | |_   _| | __|  / __| | __|    |__  |
+| |__  | |_| |   | |   | _|  | (__  | _|       / / 
+|____|  \___/    |_|   |___|  \___| |___|     /_/   Starting  version 7.0.6 ...\n
+ 2022-12-07 08:44:51 INFO  [Lutece-MainThread]  lutece.event - Creating connexions pool 'portal'.
+ 2022-12-07 08:44:51 INFO  [Lutece-MainThread]  lutece.event - Loading context files ...
+ 2022-12-07 08:44:52 INFO  [Lutece-MainThread]  lutece.event - Context file loaded : core_context.xml
+ 2022-12-07 08:44:52 INFO  [Lutece-MainThread]  lutece.event - Context file loaded : lucene_context.xml
+ 2022-12-07 08:44:52 INFO  [Lutece-MainThread]  lutece.event - Loading plugins context overrides
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.PathCacheService
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New ImageResourceType registered : fr.paris.lutece.portal.service.page.PageService
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.page.PageService
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New admin user menu item provider registered : modifyPasswordUserMenuItemProvider
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New admin user menu item provider registered : accessibilityModeUserMenuItemProvider
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New admin user menu item provider registered : languageUserMenuItemProvider
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New admin user menu item provider registered : divider1UserMenuItemProvider
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Spring context loaded in 1843 ms
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Running extra startup services ...
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Initializing plugins ...
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New XPage application registered : search 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New XPage application registered : map 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Servlet registered : progressManagerServlet
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New search indexer registered : PageIndexer
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : main_menu 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : tree_menu 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : links 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : metas 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : statistics 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Page Include Service registered : themes 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Dashboard Component registered : CORE_SYSTEM
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Dashboard Component registered : CORE_USERS
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Dashboard Component registered : CORE_USER
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Dashboard Component registered : CORE_PAGES
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : usersAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : searchAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : editorAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : xslExportAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : adminHomePageAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : autoIncludesAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Admin Dashboard Component registered : featuresAdminDashboardComponent
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : PAGE
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : PORTLET_TYPE
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : INSERT_SERVICE
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : ADMIN_USER
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : SEARCH_SERVICE
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New RBAC resource type registered : XSL_EXPORT
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Daemon registered : indexer 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Daemon registered : mailSender 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Daemon registered : anonymizationDaemon 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Daemon registered : accountLifeTimeDaemon 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Daemon registered : threadLauncherDaemon 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - SpringService cache cleared due to a plugin installation change - Plugin : core
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Plugin registered : lucene 
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Initializing plugins filters ...
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Initialize plugins filters
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Initializing plugins servlets ...
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Initialize plugins servlets
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event -  * servlet 'progressManagerServlet' from plugin core initialized.
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Content Service 'XPageAppService' is loaded  [ cache disable ]  
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Content Service 'Page Content Service' is loaded  [ cache disable ]  
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New freemarker autoinclude : commons_site.html from core
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Freemarker AutoInclude added : commons_bs5_tabler.html
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Freemarker AutoInclude added : commons_backport.html
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - New Freemarker AutoInclude added : admin/util/calendar/macro_datetimepicker.html
+ 2022-12-07 08:44:53 INFO  [Lutece-MainThread]  lutece.event - Scheduling daemon mailSender ; first run in 7 seconds
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Scheduling daemon threadLauncherDaemon ; first run in 14 seconds
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Scheduling daemon accountLifeTimeDaemon ; first run in 21 seconds
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Scheduling daemon indexer ; first run in 28 seconds
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Authentication module loaded : LUTECE DEFAULT AUTHENTICATION
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - New ImageResourceType registered : fr.paris.lutece.portal.service.fileimage.FileImageService
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Running post startup services ...
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - Datastore's cache started.
+ 2022-12-07 08:44:54 INFO  [Lutece-MainThread]  lutece.event - 
+ _      _   _   _____   ___    ___   ___       ___   ___   ___  __   __  ___   ___ 
+| |    | | | | |_   _| | __|  / __| | __|     / __| | __| | _ \ \ \ / / | __| | _ \
+| |__  | |_| |   | |   | _|  | (__  | _|      \__ \ | _|  |   /  \ V /  | _|  |   /
+|____|  \___/    |_|   |___|  \___| |___|     |___/ |___| |_|_\   \_/   |___| |_|_\  started successfully in 4s !!!
+
+   Front office http(s)://server:port/example/jsp/site/Portal.jsp
+   Back office  http(s)://server:port/example/jsp/admin/AdminMenu.jsp
+
+ 2022-12-07 08:44:55 INFO  [http-nio-8080-exec-2]  lutece.event - LocaleService : default locale set to : fr
+ 2022-12-07 08:44:55 INFO  [http-nio-8080-exec-3]  lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+ 2022-12-07 08:44:55 INFO  [http-nio-8080-exec-5]  lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+ 2022-12-07 08:44:55 INFO  [http-nio-8080-exec-4]  lutece.event - New Page Event Listener registered : fr.paris.lutece.portal.service.cache.HeadersPageCachingFilter
+ 2022-12-07 08:45:01 INFO  [Lutece-Daemons-Coordinator]  lutece.event - New Scheduled Thread added to the pool for daemons. Index:1
+ 2022-12-07 08:45:01 INFO  [Lutece-Daemon-mailSender]  lutece.event - Daemon mailSender - starts processing.
+ 2022-12-07 08:45:01 INFO  [Lutece-Daemon-mailSender]  lutece.event - Daemon mailSender - end of process.
+ 2022-12-07 08:45:08 INFO  [Lutece-Daemon-threadLauncherDaemon]  lutece.event - Daemon threadLauncherDaemon - starts processing.
+ 2022-12-07 08:45:08 INFO  [Lutece-Daemon-threadLauncherDaemon]  lutece.event - Daemon threadLauncherDaemon - end of process.
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - Daemon accountLifeTimeDaemon - starts processing.
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - AccountLifeTimeDaemon - No expired admin user found
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - AccountLifeTimeDaemon - Expired passwords notification deactivated, skipping
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - AccountLifeTimeDaemon - Other alerts deactivated, skipping
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - AccountLifeTimeDaemon - Expired passwords notification deactivated, skipping
+ 2022-12-07 08:45:15 INFO  [Lutece-Daemon-accountLifeTimeDaemon]  lutece.event - Daemon accountLifeTimeDaemon - end of process.
+ 2022-12-07 08:45:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - starts processing.
+ 2022-12-07 08:45:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - end of process.
+ 2022-12-07 08:50:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - starts processing.
+ 2022-12-07 08:50:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - end of process.
+ 2022-12-07 08:55:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - starts processing.
+ 2022-12-07 08:55:22 INFO  [Lutece-Daemon-indexer]  lutece.event - Daemon indexer - end of process.
+ 2022-12-07 08:59:30 INFO  [localhost-startStop-2]  lutece.event - Lutece daemons scheduler stop requested : trying to terminate gracefully daemons list (max wait 15 s).
+ 2022-12-07 08:59:30 INFO  [localhost-startStop-2]  lutece.event - All daemons shutdown successfully.
+ 2022-12-07 08:59:30 INFO  [localhost-startStop-2]  lutece.event - Application stopped
+ 

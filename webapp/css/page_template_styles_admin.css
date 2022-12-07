@@ -1,0 +1,17 @@
+/******************************************
+/* SPECIFIC LUTECE DEFAULT THEME STYLES   *
+******************************************/
+/* ADMIN STYLES */
+body#tinymce{ padding-top: 0 }
+
+.site-toolbar{ justify-content: flex-end; }
+.site-toolbar .btn-group .btn{ opacity: .8; padding: .375rem .55rem; }
+.site-toolbar .btn-group .btn .fas, .site-toolbar .btn-group .btn .fa, .site-toolbar .btn-group .btn .paris-icon{ margin-right: 0; }
+.site-toolbar .btn-group .btn:hover{ opacity: 1 }
+.site-toolbar .btn-group > .form-inline .btn{ border-radius: 0 }
+.site-toolbar + *:hover{  box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.5);-webkit-box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.5); -moz-box-shadow: 2px 2px 12px -1px rgba(0,0,0,0.5);}
+
+.admin_column_outline{ min-height: 5rem; outline: 1px dotted transparent; }
+.admin_column_outline:hover{ outline-color: #888; }
+.admin_column_outline .admin_column_id{ display: none; position: absolute; top: -30px; left: 15px; padding: 5px; color: #fff; background: #000;}
+.admin_column_outline:hover .admin_column_id{ display: block; }

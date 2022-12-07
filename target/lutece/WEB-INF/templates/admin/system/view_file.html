@@ -1,0 +1,23 @@
+<@row>
+	<@columns>
+		<@box color='danger'>
+			<#assign path>
+			<@breadcrumbs>
+				<@breadcrumbItem>
+					<@link href='jsp/admin/system/ManageFilesSystem.jsp'><@icon style='home'/></@link>
+				</@breadcrumbItem>
+				<@breadcrumbItem>
+					<@link href='jsp/admin/system/ManageFilesSytemDir.jsp?dir=${files_system_directory}'>${files_system_directory?remove_beginning('/')?remove_ending('/')}</@link>
+				</@breadcrumbItem>
+				<@breadcrumbItem class='active'>
+					${file_system_name?replace('${files_system_directory}','')}
+				</@breadcrumbItem>
+			</@breadcrumbs>
+			</#assign>
+			<@boxHeader title=path skipHeader=true />
+			<@boxBody>
+				<@pre>${file_system_data?html}</@pre>
+			</@boxBody>
+		</@box>
+	</@columns>
+</@row>

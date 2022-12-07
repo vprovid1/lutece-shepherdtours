@@ -1,0 +1,34 @@
+<#assign title>
+<@breadcrumbs class='breadcrumb-arrows has-arrow-separator'>
+<#if page.id=1>
+	<@breadcrumbItem><@icon style='home' /></@breadcrumbItem>
+<#else>
+	<@breadcrumbItem>
+		<@link href='jsp/admin/site/AdminSite.jsp?page_id=1' title='${page.name}'><@icon style='home' /></@link>
+	</@breadcrumbItem>
+	<#if page.parentPageId gt 1>
+		<@breadcrumbItem>
+			<@link href='jsp/admin/site/AdminSite.jsp?page_id=${page.parentPageId}' title='${page.name}'>... [${page.parentPageId}]</@link>
+		</@breadcrumbItem>
+	</#if>
+	<@breadcrumbItem class='active'>${page.name} [${page.id}]</@breadcrumbItem>
+</#if>
+</@breadcrumbs>
+</#assign>
+<@box>
+	<@boxBody class='admin-site'>
+		<@div class='admin-menu'>
+			${title}
+			<@adminSiteToolbar />
+		</@div>
+		<@div id='admin-page-preview'>
+			${page_block}
+			<!-- HTML in jsp/admin/site/AdminSite.jsp -->
+		</@div>
+	</@boxBody>
+</@box>
+<#if page_message!="">
+<@initToast>
+<@addToast title='#i18n{portal.util.labelWarning}' content=page_message?js_string type='warning' />
+</@initToast>
+</#if>
